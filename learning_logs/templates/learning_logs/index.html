@@ -1,0 +1,16 @@
+{% extends "learning_logs/base.html" %}
+
+{% block header %}
+  <div class="jumbotron">
+  	<h1>Thornsh</h1>
+  </div>
+{% endblock header %}
+
+{% block content %}
+  <h2>
+  	<a href="{% url 'users:register' %}">注册一个账户</a>来访问这个博客。
+  </h2>
+  <h2>
+    这是一个帮你记录的网站，你可以记录你的感想、日记、文章。
+  </h2>
+{% endblock content %}
